@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{fullpage}
+\setlength{\topmargin}{-1.0in}
+\setlength{\footskip}{0.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{10.0in}
+\setlength{\oddsidemargin}{-0.0in}
+\setlength{\evensidemargin}{-0.0in}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\addtolength{\headheight}{\baselineskip}
+\addtolength{\headheight}{1in}
+\addtolength{\textheight}{-\baselineskip}
+\addtolength{\textheight}{-1in}
+\lhead{}
+\chead{\includegraphics[height=1in]{uwstat.png}}
+\rhead{}
+\lfoot{}
+\cfoot{{\footnotesize
+       \begin{color}{Gray}
+       Department of Statistics \\
+       University of Wisconsin--Madison \hspace{0.1in} 1300 University Ave \hspace{0.1in} Madison, Wisconsin 53706 \\[-2pt]
+       Phone: (608) 262--2598 \hspace{0.25in}
+       Web: http://www.stat.wisc.edu
+       \end{color}
+       }}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\section*{}
+
+\noindent
+%\begin{minipage}{0.99\textwidth}
+%\begin{minipage}{0.69\textwidth}
+%\textcolor{white}{.}
+%\end{minipage}
+%\begin{minipage}{0.29\textwidth}
+%{\footnotesize
+%Nathaniel Pritchard \\
+%Department of Statistics \\
+%1300 University Ave \\
+%Madison, Wisconsin 53706
+%}
+
+%\vspace{12pt}
+%December 15,2022
+%\end{minipage}
+%\end{minipage}
+\vspace{12pt}
+\noindent\today
+
+\vspace{12pt}
+\noindent
+SIAM Journal on Matrix Analysis \\
+3600 Market Street, 6th Floor \\
+Philadelphia, PA 19104
+
+\vspace{12pt}
+\noindent
+To Michele Benzi and other members of the editorial board:
+\medskip
+
+We are writing to submit the enclosed manuscript, entitled ``Residual Tracking and Stopping for Solving Consistent Linear Inverse Problems with Finite Domains,'' for review. The manuscript furthers the scholarship on solving linear inverse problems with finite domains such as those encountered in the differential privacy and random sketching. Specifically, the manuscript discusses how to rigorously and practically track and stop the progress of Kaczmarz solvers in the linear inverse context with relatively weak assumptions.  In accomplishing this task, the manuscript fills a subtle but important gap in the literature relating to the lack of methods to effectively track the progress of solvers when they have access to only a subset of the overall problem. In filling this gap, we propose a progress estimator and rigorously quantify its relevant uncertainty to develop an uncertainty set and stopping criterion that, in practice, excels at handling the uncertainty of the estimator for these linear inverse problems.
+\medskip
+
+Because of the continued presence of linear inverse problems (e.g.,``sketch and project'', streaming problems) and the manuscript’s subject matter, we believe this manuscript is a good fit for the SIAM Journal on  Matrix Analysis and Applications. Thank you for considering this manuscript for publication in the journal.
+\medskip
+
+\noindent Sincerely, \\
+Nathaniel Pritchard \& Vivak Patel
+
+% This command changes the page style to plain from this page onward.
+% If your letter is 1 page long, then comment this out.
+% If your letter is 2 pages long, then include this command.
+% If your letter is longer than 2 pages, then you may need to place
+% this command earlier in the document.
+%\pagestyle{plain}
+
+\end{document}
